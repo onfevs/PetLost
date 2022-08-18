@@ -1,2 +1,31 @@
-# ENCUMA_BUMA
- WEB para encontrar mascotas perdidas
+
+# ENCUMA - BUMA
+
+WEB para encontrar mascotas perdidas
+
+
+## Authors
+
+- [@Onfevs](https://github.com/onfevs)
+
+
+![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+
+
+## Optimizations
+
+What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
+
+
+## 🛠 Skills
+Javascript, HTML, CSS, MySQL, JAVA
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at fake@fake.com
+
+
+## Documentation
+
+[Documentation](https://linktodocumentation)
