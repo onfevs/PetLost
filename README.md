@@ -1,5 +1,5 @@
 
-# ENCUMA - BUMA
+<h1 align=center> ENCUMA - BUMA </h1>
 
 ## WEB para encontrar mascotas perdidas
 
