@@ -12,7 +12,7 @@
 
 
 
-![Logo](https://github.com/onfevs/PetLost/blob/main/Documentacion/Logos/LOGO.png)
+![Logo](https://github.com/onfevs/PetLost/blob/main/Documentacion/Logos/Logo-PestLost.png)
 
 
 ## Optimizations
