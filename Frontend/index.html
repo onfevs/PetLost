@@ -5,33 +5,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PetLost</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <a href="#">LOGO(img)</a>
+    <a href="#">
+      <img src="./assets/Logo-PestLost.png" alt="logo">
+    </a>
   </header>
-  <img src="./assets/img/foto_fondo1.jpg" width="300px" height="200px" alt="imagen-fondo">
-  <div class="texto-login">
-    <h1>Bienvenidos</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptate, nam porro aspernatur molestias ex architecto molestiae pariatur quas totam, nihil corrupti in reiciendis minus, natus tenetur maxime quo veniam.</p>
-  </div>
-  <section class="login">
-    <div class="login-container">
+  <section class="container-main">
+    <section class="texto-login">
+      <h1>Bienvenidos</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. lorem</p>
+    </section>
+    <section class="login">
       <form action="form-container">
         <label for="">Email</label>
-        <input type="email">
+        <input type="email" placeholder="yourUser@example.com">
         <label for="">Contraseña</label>
-        <input type="text">
+        <input type="password">
         <button>
           <a href="./html/home.html">Iniciar sesión</a>
         </button>
-        <h3>¿No tienes una cuenta aun?</h5>
+        <!-- <input class="button" type="submit" value="Iniciar sesíon"> -->
+        <h3>¿No tienes una cuenta aun?</h3>
         <!-- <a href="">¿Olvidaste tu contraseña?</a> -->
         <button>
           <a href="./html/register.html">Registrarse</a>
         </button>
       </form>
-    </div>
+    </section>
   </section>
+  <!-- <img class="background-image" src="./assets/img/foto_fondo1.jpg" width="300px" height="200px" alt="imagen-fondo"> -->
 </body>
 </html>
