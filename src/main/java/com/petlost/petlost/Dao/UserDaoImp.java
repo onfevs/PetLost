@@ -41,13 +41,21 @@ public class UserDaoImp implements UsuarioDao {
         }catch(Exception e){
             e.printStackTrace();
         }
-        
-
     }
 
     @Override
     public void deleteUser(Long id) {
         
+    }
+
+    @Override
+    public boolean loginUser(Usuario user) {
+        String query = "FROM Usuario WHERE email = :email AND password = :password";
+        List<Usuario> answer = entityManager.createQuery(query)
+                .setParameter("email", user.getEmail())
+                .setParameter("password", user.getPassword())
+                .getResultList();
+        return !answer.isEmpty();
     }
     
 }

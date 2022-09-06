@@ -16,4 +16,5 @@ public interface UsuarioDao {
     public List<Usuario> getUsers();
     public void createUser(Usuario user);
     public void deleteUser(Long id);
+    public boolean loginUser(Usuario user);
 }
