@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --label: #D6CAF8;
+  --black: #000000;
+  --header: #0D1122;
+  --fondo-container: #1e1e1eb5;
+  --letter: #CBF4F7;
+  --white: #ffff;
+  --button: #524388;
+  --hover:#00eeff80;
+  /* --sm: 14px;
+  --md: 16px;
+  --lg: 20px; */
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header img {
+  width: 300px;
+  margin: 10px;
+  top: 10px;
+  position: fixed;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container-main {
+  background-image: url(./assets/img/foto_fondo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  width: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.texto-login {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+}
+
+.texto-login h1 {
+  color: var(--letter);
+  font-weight: bold;
+  font-size: 90px;
+}
+
+.texto-login p {
+  color: var(--letter);
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 13px;
+  opacity: 0.5;
+  margin-top: 20px;
+}
+
+.login {
+  width: 560px;
+  background: var(--fondo-container);
+  box-shadow: 0 0px 1px rgb(255 255 255), 0 1px 5px var(--letter);
+  height: 476px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--label);
+  font-size: 16px;
+  text-align: center;
+}
+
+input {
+  border-radius: 8px;
+  height: 40px;
+  font-size: 18px;
+  padding: 8px;
+  margin-bottom: 30px;
+  color: var(--button);
+  text-align: center;
+  border: none;
+}
+
+input::placeholder{
+  color: var(--label);
+}
+
+.button {
+  background-color: var(--button);
+  border-color: var(--letter);
+}
+
+.login h3 {
+  color: var(--letter );
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  background-color: var(--button);
+  border-radius: 8px;
+  height: 55px;
+  font-size: 20px;
+  padding: 8px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+button a {
+  text-decoration: none;
+  color: var(--letter);
+}
+
+button:hover {
+  background-color: var(--hover);
+  animation: .1s ease-in;
+}
+
+main{
+  background-image: url(./assets/img/foto_fondo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.filtro-add{
+  display: flex;
+  align-content: center;
+  align-items: flex-end;
+  width: 500px;
+  height: 50px;
+  justify-content: space-evenly;
+}
+
+.cards-ads{
+  display: grid;
+  grid-template-columns: repeat(4,250px);
+  row-gap: 20px;
+  padding: 20px;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  column-gap: 10px;
+}
+
+.card-pet{
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  background:white;
+}
+
+.image{
+  width: 100%;
+}
+
+.image img{
+  width: 100%;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body h3{
+  margin: 10px;
+  color: var(--button);
+}
+
+.card-body p{
+  margin: 10px;
+}
+
+.ad-container a{
+  text-decoration: none;
+}
+
+.data-user{
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    )
+    ,url(./assets/img/foto_fondo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  border: 5px solid rgba(147, 112, 216, 0.5);
+}
+
+.icon-user{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--label);
+}
+
+.card-info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-details{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-items: center;
+  align-items: center;
+  border: 1px solid;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-details button{
+  width: 100%;
+}
+
