@@ -16,7 +16,7 @@ import java.util.List;
 public interface PersonaDao {
     public List<Persona> getPeople();
 
-    public void createUser(Persona person);
+    public int createUser(Persona person);
 
     public void deletePerson(Long id);
 }

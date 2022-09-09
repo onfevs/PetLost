@@ -23,34 +23,35 @@
         <form>
           <div class="contact-details">
             <div>
-              <label for="">Nombre</label>
-              <input type="text" placeholder="">
-              <label class="city" for="">Ciudad</label>
-              <input type="text" placeholder="">
+              <label for="name_input">Nombre</label>
+              <input id= "name_input" type="text" placeholder="">
+              <label class="city" for="city_input">Ciudad</label>
+              <input id= "city_input" type="text" placeholder="">
             </div>
             <div>
-              <label class="last-name" for="">Apellido</label>
-              <input type="text" placeholder="">
-              <label for="">Telefono</label>
-              <input type="text" placeholder="">
+              <label class="last-name" for="lastname_input">Apellido</label>
+              <input id= "lastname_input" type="text" placeholder="">
+              <label for="phone_input">Telefono</label>
+              <input id= "phone_input" type="text" placeholder="">
             </div>
           </div>
           <div class="second-details">
-            <label for="">Dirección</label>
-            <input class="second-input" type="text" placeholder="">
-            <label for="">Email</label>
-            <input class="second-input" type="email" placeholder="">
-            <label for="">Contraseña</label>
-            <input class="second-input" type="password" placeholder="*********">
-            <label for="">Confirmar contraseña</label>
-            <input class="second-input" type="password" placeholder="*********">
+            <label for="address_input">Dirección</label>
+            <input id= "address_input" class="second-input" type="text" placeholder="">
+            <label for="email_input">Email</label>
+            <input id= "email_input" class="second-input" type="email" placeholder="">
+            <label for="pass_input">Contraseña</label>
+            <input id= "pass_input" class="second-input" type="password" placeholder="*********">
+            <label for="repeat_pass_input">Confirmar contraseña</label>
+            <input id= "repeat_pass_input" class="second-input" type="password" placeholder="*********">
           </div>
           <button>
-            <a href="./home.html">Registrarse</a>
+            <a onclick="registerUser()" href="#">Registrarse</a>
           </button>
         </form>
       </div>
     </section>
   </section>
+  <script type="text/javascript" src="../js/index.js"></script>
 </body>
 </html>

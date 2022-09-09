@@ -34,7 +34,7 @@ public class PersonaController {
     }
     
     @RequestMapping(value="personas", method=RequestMethod.POST)
-    public void registrarUsuario(@RequestBody Persona person){
-        personDao.createUser(person);
+    public int registrarUsuario(@RequestBody Persona person){
+        return personDao.createUser(person);
     }
 }

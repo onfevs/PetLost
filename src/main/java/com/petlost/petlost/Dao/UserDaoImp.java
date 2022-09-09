@@ -41,18 +41,12 @@ public class UserDaoImp implements UsuarioDao {
         }catch(Exception e){
             e.printStackTrace();
         }
-<<<<<<< HEAD
-=======
-        
-
->>>>>>> frontend
     }
 
     @Override
     public void deleteUser(Long id) {
         
     }
-<<<<<<< HEAD
 
     @Override
     public boolean loginUser(Usuario user) {
@@ -63,7 +57,5 @@ public class UserDaoImp implements UsuarioDao {
                 .getResultList();
         return !answer.isEmpty();
     }
-=======
->>>>>>> frontend
     
 }

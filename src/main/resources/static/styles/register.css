@@ -86,7 +86,7 @@ input {
   font-size: 18px;
   padding: 8px;
   margin-bottom: 30px;
-  color: var(--white);
+  color: var(--black);
 }
 .second-details {
   display: grid;

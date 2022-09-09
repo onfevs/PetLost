@@ -34,11 +34,7 @@ public class Usuario {
     
     
     @Getter @Setter @Column(name="contrasena")
-<<<<<<< HEAD
-        private int password;
-=======
     private int password;
->>>>>>> frontend
 
     
 }

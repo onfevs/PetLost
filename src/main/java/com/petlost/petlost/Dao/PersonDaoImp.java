@@ -22,8 +22,17 @@ public class PersonDaoImp implements PersonaDao{
     EntityManager entityManager;
     
     @Override
-    public void createUser(Persona person){
+    @Transactional
+    public int createUser(Persona person){
         entityManager.merge(person);
+        return getLastIdPerson();
+    }
+    
+    public int getLastIdPerson(){
+        String query = "FROM Persona";
+        List<Persona> personas = entityManager.createQuery(query).getResultList();
+        Persona last_person = personas.get(personas.size()-1);
+        return last_person.getIdPerson();
     }
 
     @Override
