@@ -34,7 +34,7 @@ public class Usuario {
     
     
     @Getter @Setter @Column(name="contrasena")
-    private int password;
+        private int password;
 
     
 }
