@@ -4,7 +4,6 @@
  */
 package com.petlost.petlost.Models;
 
-import java.io.File;
 import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;
