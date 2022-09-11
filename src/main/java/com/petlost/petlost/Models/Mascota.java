@@ -4,7 +4,6 @@
  */
 package com.petlost.petlost.Models;
 
-import java.io.File;
 import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -32,7 +31,7 @@ public class Mascota {
     private String name;
     
     @Setter @Getter @Column(name="fotografia")
-    private File photo;
+    private String photo;
     
     @Setter @Getter @Column(name="fecha_perdida")
     private Date dateLost;
