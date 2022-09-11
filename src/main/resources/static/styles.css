@@ -81,13 +81,13 @@ label {
   font-size: 16px;
 }
 input {
-  background-color: var(--white);
+  background-color: var(--black);
   border-radius: 8px;
   height: 42px;
   font-size: 18px;
   padding: 8px;
   margin-bottom: 20px;
-  color: var(--white);
+  color: var(--black);
 }
 .button {
   background-color: var(--button);
@@ -110,5 +110,5 @@ button {
 }
 button a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--black);
 }
