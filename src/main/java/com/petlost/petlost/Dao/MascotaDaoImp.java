@@ -8,6 +8,7 @@ import com.petlost.petlost.Models.Mascota;
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.transaction.Transactional;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -25,4 +26,9 @@ public class MascotaDaoImp implements MascotaDao{
         return entityManager.createQuery(query).getResultList();
     }
     
+    @Override
+    @Transactional
+    public void createPet(Mascota pet){
+        entityManager.merge(pet);
+    }
 }

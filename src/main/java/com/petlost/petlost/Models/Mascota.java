@@ -32,7 +32,7 @@ public class Mascota {
     private String name;
     
     @Setter @Getter @Column(name="fotografia")
-    private File photo;
+    private String photo;
     
     @Setter @Getter @Column(name="fecha_perdida")
     private Date dateLost;

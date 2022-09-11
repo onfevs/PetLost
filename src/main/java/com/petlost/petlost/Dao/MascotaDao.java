@@ -13,5 +13,5 @@ import java.util.List;
  */
 public interface MascotaDao {
     public List<Mascota> getPet();
-    
+    public void createPet(Mascota pet);
 }
