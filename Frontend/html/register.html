@@ -5,11 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registro</title>
+  <link rel="stylesheet" href="../styles/register.css">
 </head>
 <body>
   <header>
-    <a href="#">LOGO(img)</a>
+    <a href="#">
+      <img src="../assets/Logo-PestLost.png" alt="logo">
+    </a>
   </header>
+<<<<<<< HEAD
 
   <img src="../assets/img/foto_fondo2.jpg" width="300px" height="200px" alt="imagen-fondo">
 
@@ -22,16 +26,46 @@
           <input type="text" placeholder="Apellido">
           <input type="text" placeholder="Ciudad">
           <input type="text" placeholder="Telefono">
+=======
+  <section class="container-main">
+    <!-- <img src="../assets/img/foto_fondo2.jpg" width="300px" height="200px" alt="imagen-fondo"> -->
+    <section class="register">
+      <div class="register-container">
+        <div class="title">
+          <h2>Crear cuenta</h2>
+>>>>>>> 48700392642a53ef3d959a6c1ea998bdd5fa6f26
         </div>
-        <input type="text" placeholder="Dirección">
-        <input type="email" placeholder="Correo electronico">
-        <input type="password" placeholder="*********">
-        <input type="password" placeholder="*********">
-        <button>
-          <a href="./home.html">Registrarse</a>
-        </button>
-      </form>
-    </div>
+        <form>
+          <div class="contact-details">
+            <div>
+              <label for="">Nombre</label>
+              <input type="text" placeholder="">
+              <label class="city" for="">Ciudad</label>
+              <input type="text" placeholder="">
+            </div>
+            <div>
+              <label class="last-name" for="">Apellido</label>
+              <input type="text" placeholder="">
+              <label for="">Telefono</label>
+              <input type="text" placeholder="">
+            </div>
+          </div>
+          <div class="second-details">
+            <label for="">Dirección</label>
+            <input class="second-input" type="text" placeholder="">
+            <label for="">Email</label>
+            <input class="second-input" type="email" placeholder="">
+            <label for="">Contraseña</label>
+            <input class="second-input" type="password" placeholder="*********">
+            <label for="">Confirmar contraseña</label>
+            <input class="second-input" type="password" placeholder="*********">
+          </div>
+          <button>
+            <a href="./home.html">Registrarse</a>
+          </button>
+        </form>
+      </div>
+    </section>
   </section>
 </body>
 </html>

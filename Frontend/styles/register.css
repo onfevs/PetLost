@@ -12,6 +12,7 @@
   --md: 16px;
   --lg: 20px; */
 }
+
 *{
   padding: 0;
   margin: 0;
@@ -31,7 +32,7 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 .container-main {
-  background-image: url(./assets/img/foto_fondo1.jpg);
+  background-image: url(../assets/img/foto_fondo2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -40,72 +41,69 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-.texto-login {
-  display: flex;
-  flex-direction: column;
-  width: 560px;
-  height: 476px;
-}
-.texto-login h1 {
-  color: var(--letter);
-  font-weight: bold;
-  font-size: 90px;
-}
-.texto-login p {
-  color: var(--letter);
-  font-weight: bold;
-  font-size: 35px;
-  letter-spacing: 13px;
-  opacity: 0.5;
-  margin-top: 20px;
-}
-.login {
+.register {
   width: 560px;
   background: var(--fondo-container);
   box-shadow: 0 2px 4px rgb(255 255 255), 0 2px 10px var(--letter);
-  height: 476px;
+  height: 650px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   border-radius: 30px;
 }
+
 form {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 10px;
+  gap: 25px;
+  margin-top: 20px;
+}
+.title {
+  margin-top: -20px;
+}
+.title h2 {
+  text-align: center;
+  color: var(--letter);
+  font-size: 30px;
+}
+.contact-details {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  justify-content: center;
 }
 label {
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-weight: 400;
+  margin-bottom: 30px;
   color: var(--label);
   font-size: 16px;
 }
 input {
   background-color: var(--white);
   border-radius: 8px;
-  height: 42px;
+  /* width: 114px; */
+  height: 30px;
   font-size: 18px;
   padding: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: var(--white);
 }
-.button {
-  background-color: var(--button);
-  border-color: var(--letter);
+.second-details {
+  display: grid;
+  grid-template-columns: 105px 395px;
+  justify-content: center;
+  align-items: center;
 }
-.login h3 {
-  color: var(--letter );
-  text-align: center;
-  margin: 20px;
+.second-details input {
+  width: 364px;
 }
 button {
   background-color: var(--button);
   border-color: var(--letter);
   border-radius: 8px;
-  height: 55px;
+  height: 60px;
   font-size: 20px;
   padding: 8px;
-  margin: 10px;
   cursor: pointer;
 }
 button a {
