@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --label: #D6CAF8;
+  --black: #000000;
+  --header: #0D1122;
+  --fondo-container: #1e1e1eb5;
+  --letter: #CBF4F7;
+  --white: #ffff;
+  --button: #524388;
+  /* --sm: 14px;
+  --md: 16px;
+  --lg: 20px; */
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 120px;
+  background-color: var(--header);
+}
+header img {
+  width: 180px;
+  height: 120px;
+  margin-left: 10px;
+}
+.nav {
+  display: flex;
+}
+.container-list a {
+  color: var(--white);
+  text-decoration: none;
+}
+.container-account {
+  display: block;
+}
+.profile-image img {
+  width: 70px;
+  height: 70px;
+}
+.container-account a {
+  color: var(--white);
+  text-decoration: none;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+.container-main {
+  background-image: url(../assets/img/foto_fondo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
