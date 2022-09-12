@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <div class="glass">
+            <h1 class="h-glass">Pet</h1>
+        </div>
+        <h1 class="h-regular">Lost</h1>
+    </header>
+
+    <div class="container-form sign-up">
+        <div class="bienvenido">
+            <div class="mensaje">
+                <h2>Bienvenidos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolorum accusamus asperiores quia
+                    aliquam dolorem, officia error nam ipsum repellat maiores. Dignissimos eaque, ad numquam neque quis
+                    fugiat minus excepturi.
+                </p>
+                <button class="sign-up-btn">Iniciar Sesion</button>
+            </div>
+        </div>
+        <form class="formulario up" id="form" action="#" method="post">
+            <h2 class="create-account">Crear una cuenta</h2>
+            <input type="text" placeholder="Nombre" required>
+            <input type="text" placeholder="Apellido" required>
+            <input type="text" placeholder="Ciudad" required>
+            <input type="text" placeholder="Telefono" required>
+            <input type="text" placeholder="Direccion" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Contrasena" required view="password=">
+            <input type="password" placeholder="Confirmar Contrasena" view="password=" required>
+            <p class="cuenta-gratis">Olvido su contraseña?</p>
+            <input type="button" value="Crear Cuenta" required>
+        </form>
+    </div>
+
+    <div class="container-form sign-in">
+        <form class="formulario in" id="form" action="#" method="post">
+            <h2 class="create-account">Iniciar Sesion</h2>
+            <div class="inputBox">
+                <input type="email" placeholder="Email" id="email" onkeydown="validation();" required>
+                <span id="text"></span>
+            </div>
+            <input type="password" placeholder="Contrasena" id="password">
+            <div id="toggle" onclick="showHide();"></div>
+            <p class="cuenta-gratis">Aun no tienes una cuenta?</p>
+            <input type="button" value="Iniciar Sesion">
+        </form>
+        <div class="bienvenido">
+            <div class="mensaje">
+                <h2>Bienvenido de nuevo</h2>
+                <p class="registro">Si aun no tienes una cuenta, por favor registrate aqui
+                </p>
+                <button class="sign-in-btn">Registrarse</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./scripts/main.js"></script>
+</body>
+
+</html>
