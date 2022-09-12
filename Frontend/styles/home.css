@@ -27,53 +27,98 @@ header {
 }
 
 header img {
-  width: 300px;
+  width: 250px;
   margin: 10px;
 }
 
+.profile-image {
+  margin-top: 8px;
+  margin-right: 50px;
+}
 .profile-image img {
-    width: 100px;
-
+    width: 75px;
 }
 
 .nav{
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    height:120px;
-  }
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height:120px;
+}
+
+.nav .logo{
+  margin-top: 35px;
+}
 
 .container-list{
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 25px;
-  }
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 60vh;
+}
   
 .container-list ul{
-    display: flex;
-    justify-content: space-evenly;
-    width: 300px;
-  }
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
   
 .container-list ul li{
-    list-style-type: none;
-  }
+  list-style-type: none;
+}
 
 .container-list ul li a{
-    color: var(--letter);
-    text-decoration: none;
-  }
+  color: var(--letter);
+  text-decoration: none;
+}
   
 .container-account{
-    align-items: center;
-    display: flex;
-    flex-direction: row-reverse;
-  }
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container-account ul{
+  display: none;
+  list-style: none;
+  padding: 0px;
+  position: absolute;
+  width: 200px;
+  text-align: right;
+  margin: 25px 0px -192px 60px;
+  background-color: var(--button);
+  color: var(--letter);
+  font-size: 20px;
+}
+
+.container-account:hover{
+  background-color: var(--button);
+  width: 200px;
+}
+
+.container-account:hover ul{
+  display: block;
+  text-align: center;
+}
+
+.container-account li {
+  margin: 16px 0;
+}
+
+.container-account li a{
+  color: #ffffff;
+  text-decoration: none;
   
-ul,ol{
+}
+
+.container-account li a:hover{
+  text-decoration: underline;
+}
+
+/* ul,ol{
     list-style: none;
   }
   
@@ -98,7 +143,7 @@ ul,ol{
     display:none;
     position: absolute;
     min-width: 140px;
-  }
+  } */
 
 .container-main {
   background-image: url(./assets/img/foto_fondo1.jpg);
@@ -207,8 +252,8 @@ button:hover {
   animation: .1s ease-in;
 }
 
-main{
-  background-image: url(../assets/img/foto_fondo1.jpg);
+body{
+  background-image: url(../assets/img/foto_fondo2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
@@ -241,8 +286,7 @@ main{
 .card-pet{
   display: flex;
   flex-direction: column;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 20px;
   overflow: hidden;
   background:rgba(255, 255, 255, 0.8);
 }
