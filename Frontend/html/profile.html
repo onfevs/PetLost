@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../styles/profile.css" type="text/css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
   <title>Profile</title>
 </head>
 
@@ -56,25 +57,25 @@
     <div class="card-info">
       <div class="contact-details">
         <label for="nombre">Nombre</label>
-        <input type="text" placeholder="Sara ">
+        <input id="name" type="text" placeholder="Sara">
 
         <label for="apellido">Apellido</label>
-        <input type="text" placeholder="Martinez">
+        <input id="lastname" type="text" placeholder="Martinez">
 
         <label for="ciudad">Ciudad</label>
-        <input type="text" placeholder="Medellin">
+        <input id="city" type="text" placeholder="Medellin">
 
         <label for="telefono">Telefono</label>
-        <input type="text" placeholder="3245566779">
+        <input id="phone" type="text" placeholder="3245566779">
 
         <label for="dirección">Direccion</label>
-        <input type="text" placeholder="Cra 123 #45-12 Sabaneta">
+        <input id="address" type="text" placeholder="Cra 123 #45-12 Sabaneta">
 
         <label for="email">Email</label>
-        <input type="text" placeholder="sarita@exampple.com">
+        <input id="email" type="text" placeholder="sarita@exampple.com">
 
         <label for="clave">Contraseña</label>
-        <input type="password" placeholder="*********">
+        <input id="password" type="password" placeholder="*********">
 
         <button>
           <a href="#">Editar Cuenta</a>
@@ -83,6 +84,7 @@
       </div>
     </div>
   </section>
+  <script type="text/javascript" src="../js/profile.js"></script>
 </body>
 
 </html>
