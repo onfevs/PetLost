@@ -150,15 +150,18 @@ main {
   gap: 20px;
 }
 
+.icon-user h2{
+  font-size: 40px;
+}
 .icon-closed {
   margin-right: -585px;
   margin-top: 20px;
 }
   
 .card-info{
-  background: linear-gradient( 0deg, rgba(214, 202, 248, 0.5), rgba(90, 60, 160, 0.5) );
+  background: linear-gradient( 0deg, rgb(0 0 0 / 74%), rgb(98 97 103 / 85%) );;
   border-radius: 10px;
-  width: auto;
+  width: 750px;
   margin: 100px 0px;
 }
   
@@ -167,7 +170,7 @@ main {
   display: grid;
   grid-template-columns: 150px 400px;
   align-items: center;
-  padding: 50px;
+  padding: 40px;
   
 }
   
