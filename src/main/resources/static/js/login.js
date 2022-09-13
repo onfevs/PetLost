@@ -19,6 +19,8 @@ async function login(){
     console.log("Answer: "+ answer)
 
     if(answer == true){
+        localStorage.setItem("email", data_person.email)
+        localStorage.setItem("password", data_person.password)
         window.location.href = "./html/home.html";
     }else{
         alert("El usuario no existe")
