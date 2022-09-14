@@ -163,7 +163,7 @@ button {
   background-color: transparent;
   border-radius: 8px;
   height: 55px;
-  font-size: 20px;
+  font-size: 25px;
   padding: 8px;
   margin-top: 130px;
   cursor: pointer;
@@ -187,8 +187,6 @@ button:hover, a:hover {
   color: #D6CAF8;
 }
 
-<<<<<<< HEAD
-=======
 body{
   background-image: url(../assets/img/fondo.jpg);
   
@@ -199,7 +197,6 @@ body{
   justify-content: space-evenly;
   align-items: center;
 }
->>>>>>> frontend
 
 .filtro-add{
   display: flex;
@@ -248,6 +245,10 @@ select{
   cursor: pointer;
   transition: 350ms all;
   position: relative;
+}
+
+.card-ads:nth-child(1) {
+  grid-column: span 2;
 }
 
 .cards-ads .card-pet:hover{
@@ -311,147 +312,11 @@ select{
   opacity: 1;
 }
 
-.card-ads:nth-child(1) {
-  grid-column: span 2;
-}
-
-<<<<<<< HEAD
-select{
-    border-radius: 5px;
-    border: none;
-    background-color:var(--label);
-}
-
-/* Cards */
-
-.row{
-  /* width: 80%; */
-  height: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.row .card{
-  width: 450px;
-  height: 500px;
-  position: relative;
-  border: none;
-  border-radius: 70px 10px 70px 10px;
-  box-shadow: 5px 10px 10px #111111;
-  overflow: hidden;
-  cursor: pointer;
-  margin: 10px 5px;
-}
-
-.row .card img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.row .card .content{
-  position:absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  display: grid;
-  place-content: center;
-  text-align: center;
-  background: linear-gradient(45deg, rgba(106, 48, 147, 0.9), rgba(162, 68, 255, 0.5));
-  transition: all 0.5s linear;
-}
-
-.row .card .content.box1{
-  clip-path: circle(0% at 0 100%);
-}
-
-.row .card:hover .content.box1{
-  clip-path: circle(141.4% at 0 100%);
-}
-
-.row .card .content.box2{
-  clip-path: circle(0% at 50% 50%);
-}
-
-.row .card:hover .content.box2{
-  clip-path: circle(70.7% at 50% 50%);
-}
-
-.row .card .content.box3{
-  clip-path: circle(0% at 100% 0);
-}
-
-.row .card:hover .content.box3{
-  clip-path: circle(141.7% at 100% 0);
-}
-
-.row .card .content h3{
-  font-size: 35px;
-  color: var(--texto);
-  font-weight: 700;
-  line-height: 45px;
-  letter-spacing: 2px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  z-index: 1;
-  height: 70px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-}
-
-.row .card .content p{
-  font-size: 18;
-  color: var(--texto);
-  padding-bottom: 1px;
-  line-height: 25px;
-  margin: 10px 0px 20px 0px;
-}
-
-.row .card .content ul{
-  display: block;
-  color: var(--texto);
-  margin-top: 15px;
-}
-
-.row .card .content ul li{
-  display: inline-block;
-  margin: 0 5px;
-}
-
-.row .card .content ul li a{
-  display: block;
-  color: var(--texto);
-  font-size: 20px;
-  padding: 10px;
-  transition: all 0.5s linear;
-}
-
-.row .card .content ul li:hover a{
-  transform: translateY(-10px);
-}
-
-/* Tables de description */
-
-tbody{
-  display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-=======
 .container-ul ul {
   display: none;
   padding: 0px;
   position: absolute;
-  margin: 85px 0px 0px 200px;
+  margin: 85px 0px 0px 170px;
   font-size: 20px; 
 }
 
@@ -482,7 +347,7 @@ tbody{
 
 .container-ul ul li:hover a {
   transform: translateY(-10px);
-  color: var(--letter);
+  color: var(--label);
 }
 
 /* Tables de description */
@@ -498,7 +363,6 @@ tbody{
   margin-top: 20px;
   height: 100px;
   padding: 10px;
->>>>>>> frontend
 }
 
 td{
@@ -506,18 +370,6 @@ td{
   line-height: 25px;
   font-weight: bold;
 }
-
-<<<<<<< HEAD
-thead{
-  text-decoration: underline;
-  text-transform: uppercase;
-  color: var(--letter);
-  font-size: 20px;
-  letter-spacing: 2px;
-  margin-bottom: 20px;
-}
-=======
->>>>>>> frontend
 
 tr{
   margin-bottom: 5px;
@@ -531,10 +383,6 @@ table{
   align-content: center;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
-}
-=======
 }
 
 
->>>>>>> frontend
