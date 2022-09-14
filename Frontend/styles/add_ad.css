@@ -168,13 +168,13 @@ h2 {
 .file1-container {
   display: flex;
   align-items: baseline;
-  gap: 20px;
+  gap: 10px;
 }
 
 label {
   font-weight: 400;
   /* margin-bottom: 30px; */
-  margin-top: 30px;
+  /* margin-top: 30px; */
   color: var(--label);
   font-size: 16px;
 }
