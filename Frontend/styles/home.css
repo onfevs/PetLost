@@ -229,7 +229,7 @@ select{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-template-rows: minmax(100px, auto);
-  padding: 90px;
+  padding: 20px 90px;
   grid-auto-flow: dense;
   justify-items: center;
   margin: 50px 0px;
