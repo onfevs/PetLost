@@ -133,14 +133,16 @@ label {
 }
 
 button {
-  background-color: var(--button);
+  background-color: transparent;
   border-radius: 8px;
   height: 55px;
   font-size: 20px;
   padding: 8px;
-  margin: 10px;
+  margin-top: 130px;
   cursor: pointer;
   border: none;
+  width: 100%;
+  text-decoration: none;
 }
 
 button a {
@@ -148,9 +150,14 @@ button a {
   color: var(--letter);
 }
 
-button:hover {
-  background-color: rgba(68, 0, 253, 0.5);
-  animation: .1s ease-in;
+button a {
+  text-decoration: none;
+  color: var(--letter);
+}
+
+button:hover, a:hover {
+  text-decoration: underline;
+  color: #D6CAF8;
 }
 
 body{
@@ -201,42 +208,19 @@ select{
   justify-items: center;
   margin: 50px 0px;
   gap: 5px;
-  /* row-gap: 40px; */
-  /* justify-content: space-evenly;
-  align-content: center;
-  align-items: center; */
-  /* column-gap: 10px; */
-  /* white-space: nowrap;
-  margin: 60px 0px;
-  padding-bottom: 10px; */
 }
 
 .cards-ads .card-pet{
   background-image: url(../assets/img/foto_fondo3.jpg);
-  
+  box-shadow: rgb(17, 17, 17) 5px 10px 10px;
   /* width: 200px;
   height: 250px; */
   display: grid;
   cursor: pointer;
   transition: 350ms all;
-  /* transform-origin: center left; */
   position: relative;
-  /* grid-column: span 2;
-  grid-row: span 1; */
-  /* display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  overflow: hidden;
-   */
 }
-/* .cards-ads .card-pet:nth-child(4) {
-  grid-column: span 1;
-  grid-row: span 2;
-}
-.cards-ads .card-pet:nth-child(6) {
-  grid-column: span 1;
-  grid-row: span 3;
-} */
+
 .cards-ads .card-pet:hover{
   grid-column: span 1;
   grid-row: span 2;
@@ -302,14 +286,23 @@ select{
   grid-column: span 2;
 }
 
-.container-ul {
-  display: block;
-  color: var(--texto);
-  margin-top: 15px;
-  opacity: 0;
+.container-ul ul {
+  display: none;
+  padding: 0px;
+  position: absolute;
+  margin: 85px 0px 0px 200px;
+  font-size: 20px; 
 }
 
-.container-ul button:hover {
+.container-ul:hover{
+  background-color: transparent;
+}
+
+.container-ul:hover ul{
+  display: block;
+  text-align: center;
+}
+.container-ul ul:hover {
   opacity: 1;
 }
 
@@ -328,6 +321,7 @@ select{
 
 .container-ul ul li:hover a {
   transform: translateY(-10px);
+  color: var(--letter);
 }
 
 /* Tables de description */
@@ -365,6 +359,5 @@ table{
   justify-content: center;
   align-items: center;
 }
-
 
 
