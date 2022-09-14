@@ -80,7 +80,7 @@ header img {
   align-items: center;
   text-transform: uppercase;
   font-size: 20px;
-  margin-left: 60vh;
+  margin-left: 45vh;
   
 }
   
@@ -95,15 +95,15 @@ header img {
 }
 
 .container-list ul li a{
-  color: var(--letter);
+  color: var(--black);
   text-decoration: none;
   
 }
 .container-list ul li a:hover{
-  color: var(--letter);
+  color: var(--button);
   text-decoration-line: underline;
-  background:var(--fondo);
   border-radius: 10px;
+  font-weight: bold;
 }
   
 .container-account{
