@@ -29,15 +29,22 @@ header img {
   position: fixed;
 }
 
+<<<<<<< HEAD
 .container-main {
   background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/img/foto_fondo2.jpg);
+=======
+main {
+  background-image: url(../assets/img/foto_fondo2.jpg);
+>>>>>>> frontend
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
   display: flex;
   width: auto;
   justify-content: space-evenly;
   align-items: center;
+}
+.container-main {
+  margin: 100px 0px;
 }
 
 .register {
@@ -51,6 +58,7 @@ header img {
   border-radius: 30px;
   /* margin-top: 100px; */
   text-transform: capitalize;
+  /* margin: 100px 0px; */
 }
 
 form {
