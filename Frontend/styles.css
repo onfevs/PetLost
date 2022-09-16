@@ -21,18 +21,19 @@
 
 header img {
   width: 250px;
-  margin: 10px;
+  margin: 50px 50px 0px;
+  top: 10px;
   position: fixed;
 }
 
 body {
   font-family: 'Quicksand', sans-serif;
+  background-image: linear-gradient( 0deg, rgb(0 0 0 / 57%), rgb(0 0 0 / 0%) ), url(./assets/img/imagen-fondo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container-main {
-  background-image: url(./assets/img/foto_fondo1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 100vh;
   display: flex;
   width: auto;

@@ -23,7 +23,7 @@
 header {
   width: 100%;
   height: 120px;
-  background-color: var(--header);
+  /* background-color: var(--header); */
 }
 
 header img {
@@ -46,6 +46,7 @@ header img {
   flex-direction: row;
   flex-wrap: nowrap;
   height:120px;
+  margin: 10px 50px;
 }
 
 .nav .logo{
@@ -57,7 +58,7 @@ header img {
   align-items: center;
   text-transform: uppercase;
   font-size: 20px;
-  margin-left: 60vh;
+  margin-left: 55vh;
 }
   
 .container-list ul{
@@ -71,12 +72,14 @@ header img {
 }
 
 .container-list ul li a{
-  color: var(--letter);
+  color: var(--button);
   text-decoration: none;
+  font-size: 25px;
 }
 .container-list ul li a:hover{
   color: var(--letter);
   text-decoration-line: underline;
+  font-weight: bold;
 }
   
 .container-account{
@@ -132,6 +135,7 @@ label {
   margin-right: 15px;
 }
 
+
 button {
   background-color: transparent;
   border-radius: 8px;
@@ -161,9 +165,7 @@ button:hover, a:hover {
 }
 
 body{
-  background-image: url(../assets/img/fondo.jpg);
-  
-  /* background-color: #9789ca7d; */
+  background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/img/fondo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
@@ -195,23 +197,26 @@ select{
 .ad-container a{
   text-decoration: none;
 }
+.ad-container a:hover {
+  color: var(--letter);
+}
 
 
 .cards-ads{
   position: relative;
   max-width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-template-rows: minmax(100px, auto);
+  grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
+  grid-template-rows: minmax(250px, auto);
   padding: 90px;
   grid-auto-flow: dense;
   justify-items: center;
   margin: 50px 0px;
-  gap: 5px;
+  gap: 10px;
 }
 
 .cards-ads .card-pet{
-  background-image: url(../assets/img/foto_fondo3.jpg);
+  /* background-image: url(../assets/img/foto_fondo3.jpg); */
   box-shadow: rgb(17, 17, 17) 5px 10px 10px;
   /* width: 200px;
   height: 250px; */
@@ -219,12 +224,14 @@ select{
   cursor: pointer;
   transition: 350ms all;
   position: relative;
+  height: 440px;
 }
 
 .cards-ads .card-pet:hover{
   grid-column: span 1;
   grid-row: span 2;
   transition: 350ms all;
+  height: 500px;
 }
 
 .image img{
@@ -287,11 +294,47 @@ select{
   grid-row: 2px;
 } */
 
+table{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+/* Tables de description */
+thead{
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: var(--white);
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+tbody{
+  margin-top: 40px;
+  height: 100px;
+  padding: 10px;
+}
+
+td{
+  color: var(--letter);
+  line-height: 25px;
+  font-weight: bold;
+}
+
+
+tr{
+  margin-bottom: 5px;
+}
+
+
 .container-ul ul {
   display: none;
   padding: 0px;
   position: absolute;
-  margin: 85px 0px 0px 170px;
+  margin: 85px 0px 0px 195px;
   font-size: 20px; 
 }
 
@@ -324,41 +367,4 @@ select{
   transform: translateY(-10px);
   color: var(--label);
 }
-
-/* Tables de description */
-thead{
-  text-decoration: underline;
-  text-transform: uppercase;
-  color: var(--white);
-  font-size: 20px;
-  letter-spacing: 2px;
-}
-
-tbody{
-  margin-top: 20px;
-  height: 100px;
-  padding: 10px;
-}
-
-td{
-  color: var(--letter);
-  line-height: 25px;
-  font-weight: bold;
-}
-
-
-tr{
-  margin-bottom: 5px;
-}
-
-table{
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-}
-
 

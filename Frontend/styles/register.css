@@ -23,26 +23,29 @@
 
 header img {
   width: 250px;
-  margin: 10px;
+  margin: 50px 50px 0px;
   top: 10px;
   position: fixed;
 }
 
-main {
+body {
   background-image: url(../assets/img/foto_fondo2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+main {
   display: flex;
   width: auto;
   justify-content: space-evenly;
   align-items: center;
+  margin: 125px 0px 0px;
 }
 .container-main {
   margin: 100px 0px;
 }
-
 .register {
-  width: 560px;
+  width: 620px;
   background: var(--fondo-container);
   box-shadow: 0 2px 4px rgb(255 255 255), 0 2px 10px var(--letter);
   height: 715px;
@@ -54,12 +57,16 @@ main {
   text-transform: capitalize;
   /* margin: 100px 0px; */
 }
+.icon-closed {
+  margin-left: 550px;
+  margin-top: 20px;
+}
 
 form {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  gap: 25px;
+  /* gap: 25px; */
   margin-top: 20px;
 }
 
@@ -126,7 +133,7 @@ button {
   padding: 8px;
   cursor: pointer;
   border: none;
-  margin-bottom: -30px;
+  margin: 5px 170px;
 }
 
 button a {
@@ -134,7 +141,7 @@ button a {
   color: var(--letter);
 }
 
-button:hover, a:hover {
+button:hover, button a:hover  {
   background-color: var(--label);
   animation: .1s ease-in;
   color: #000000;
