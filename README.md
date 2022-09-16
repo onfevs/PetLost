@@ -24,4 +24,5 @@ Javascript, HTML, CSS, MySQL, JAVA
 - [@lejam01](https://github.com/lejam01) - Desarrollador Front-end - Tester
 
 <h1 align=center>REPOSITORIOS<h1>
-  - Backend: https://github.com/jmontero22c/PetLost-Backend
+
+Backend: https://github.com/jmontero22c/PetLost-Backend
