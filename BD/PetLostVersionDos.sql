@@ -12,7 +12,7 @@ apellidos VARCHAR (60) NOT NULL
 CREATE TABLE Usuario (
 fk_idPersona INT NOT NULL UNIQUE,
 correo VARCHAR (80) NOT NULL,
-contraseña INT NOT NULL,
+contraseña VARCHAR (100) NOT NULL,
 FOREIGN KEY (fk_idPersona) REFERENCES Persona(idPersona) ON DELETE RESTRICT ON UPDATE CASCADE
 );
         
