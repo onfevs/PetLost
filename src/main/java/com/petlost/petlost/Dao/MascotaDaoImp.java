@@ -4,6 +4,7 @@
  */
 package com.petlost.petlost.Dao;
 
+import com.petlost.petlost.Dao.Interfaces.MascotaDao;
 import com.petlost.petlost.Models.Mascota;
 import java.util.List;
 import javax.persistence.EntityManager;
@@ -28,7 +29,8 @@ public class MascotaDaoImp implements MascotaDao{
     
     @Override
     @Transactional
-    public void createPet(Mascota pet){
+    public String createPet(Mascota pet){
         entityManager.merge(pet);
+        return "Mascota Publicada";
     }
 }

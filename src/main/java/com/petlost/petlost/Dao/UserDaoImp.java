@@ -1,5 +1,6 @@
 package com.petlost.petlost.Dao;
 
+import com.petlost.petlost.Dao.Interfaces.UsuarioDao;
 import com.petlost.petlost.Models.Usuario;
 import java.util.List;
 import javax.persistence.EntityManager;
@@ -33,8 +34,9 @@ public class UserDaoImp implements UsuarioDao {
             return "Registro exitoso";
         }catch(Exception e){
             e.printStackTrace();
+            return "Registro Fallido";
         }
-        return "Registro Fallido";
+        
     }
 
     @Override

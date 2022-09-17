@@ -4,6 +4,7 @@
  */
 package com.petlost.petlost.Dao;
 
+import com.petlost.petlost.Dao.Interfaces.TipoMascotaDao;
 import com.petlost.petlost.Models.TipoMascota;
 import java.util.List;
 import javax.persistence.EntityManager;

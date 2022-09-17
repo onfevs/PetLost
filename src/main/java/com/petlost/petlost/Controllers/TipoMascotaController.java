@@ -4,7 +4,7 @@
  */
 package com.petlost.petlost.Controllers;
 
-import com.petlost.petlost.Dao.TipoMascotaDao;
+import com.petlost.petlost.Dao.Interfaces.TipoMascotaDao;
 import com.petlost.petlost.Models.TipoMascota;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;

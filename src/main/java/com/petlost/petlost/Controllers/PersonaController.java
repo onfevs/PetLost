@@ -1,6 +1,6 @@
 package com.petlost.petlost.Controllers;
 
-import com.petlost.petlost.Dao.PersonaDao;
+import com.petlost.petlost.Dao.Interfaces.PersonaDao;
 import com.petlost.petlost.Models.Contacto;
 import com.petlost.petlost.Models.Persona;
 import com.petlost.petlost.Models.Usuario;
