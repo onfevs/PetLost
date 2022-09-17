@@ -4,7 +4,7 @@
  */
 package com.petlost.petlost.Controllers;
 
-import com.petlost.petlost.Dao.UsuarioDao;
+import com.petlost.petlost.Dao.Interfaces.UsuarioDao;
 import com.petlost.petlost.Models.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;

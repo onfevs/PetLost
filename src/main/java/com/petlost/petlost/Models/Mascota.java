@@ -24,25 +24,25 @@ import lombok.Setter;
 public class Mascota {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    @Setter @Getter @Column(name="id")
+    @Setter @Getter @Column(name="idMascota")
     private int id;
     
-    @Setter @Getter @Column(name="nombre")
+    @Setter @Getter @Column(name="Nombre")
     private String name;
     
     @Setter @Getter @Column(name="fotografia")
     private String photo;
     
-    @Setter @Getter @Column(name="fecha_perdida")
+    @Setter @Getter @Column(name="fechaperdida")
     private Date dateLost;
     
-    @Setter @Getter @Column(name="lugar_perdida")
+    @Setter @Getter @Column(name="lugarperdida")
     private String placeLost;
     
-    @Setter @Getter @Column(name="id_persona")
+    @Setter @Getter @Column(name="fk_idPersona")
     private int id_person;
     
-    @Setter @Getter @Column(name="id_tipomascota")
+    @Setter @Getter @Column(name="fk_tipoMascota")
     private int id_kindpet;
     
 }

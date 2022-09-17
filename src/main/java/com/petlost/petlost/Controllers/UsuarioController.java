@@ -4,7 +4,7 @@
  */
 package com.petlost.petlost.Controllers;
 
-import com.petlost.petlost.Dao.UsuarioDao;
+import com.petlost.petlost.Dao.Interfaces.UsuarioDao;
 import com.petlost.petlost.Models.Usuario;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +28,7 @@ public class UsuarioController {
     }
     
     @RequestMapping(value="usuarios", method=RequestMethod.POST)
-    public void createUser(@RequestBody Usuario user){
-        userDao.createUser(user);
+    public String createUser(@RequestBody Usuario user){
+        return userDao.createUser(user);
     }
 }

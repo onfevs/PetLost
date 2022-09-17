@@ -4,6 +4,7 @@
  */
 package com.petlost.petlost.Dao;
 
+import com.petlost.petlost.Dao.Interfaces.PersonaDao;
 import com.petlost.petlost.Models.Contacto;
 import com.petlost.petlost.Models.Persona;
 import com.petlost.petlost.Models.Usuario;
