@@ -14,7 +14,7 @@ import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
  */
 public interface UsuarioDao {
     public List<Usuario> getUsers();
-    public void createUser(Usuario user);
+    public String createUser(Usuario user);
     public void deleteUser(Long id);
     public boolean loginUser(Usuario user);
 

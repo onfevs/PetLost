@@ -28,7 +28,7 @@ public class UsuarioController {
     }
     
     @RequestMapping(value="usuarios", method=RequestMethod.POST)
-    public void createUser(@RequestBody Usuario user){
-        userDao.createUser(user);
+    public String createUser(@RequestBody Usuario user){
+        return userDao.createUser(user);
     }
 }

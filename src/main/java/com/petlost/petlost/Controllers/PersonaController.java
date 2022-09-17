@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.petlost.petlost.Controllers;
 
 import com.petlost.petlost.Dao.PersonaDao;
@@ -17,10 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- *
- * @author jesus
- */
 @RestController 
 public class PersonaController {
     @Autowired
@@ -37,7 +29,7 @@ public class PersonaController {
     }
     
     @RequestMapping(value="personas", method=RequestMethod.POST)
-    public int registrarUsuario(@RequestBody Persona person){
+    public int createPerson(@RequestBody Persona person){
         return personDao.createUser(person);
     }
     
