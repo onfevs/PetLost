@@ -5,7 +5,6 @@ USE PETLOST;
 /*------Tablas------*/
 CREATE TABLE Persona (
 idPersona INT PRIMARY KEY AUTO_INCREMENT,
-numDocumento BIGINT NOT NULL, 
 nombres VARCHAR (60) NOT NULL,
 apellidos VARCHAR (60) NOT NULL
 );
