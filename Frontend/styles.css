@@ -93,7 +93,7 @@ input {
   padding: 8px;
   margin-bottom: 30px;
   color: var(--button);
-  
+  text-align: center;
   border: none;
 }
 

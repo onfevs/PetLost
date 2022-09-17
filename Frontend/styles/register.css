@@ -102,6 +102,7 @@ input {
   color: var(--button);
   border: none;
   margin-top: 5px;
+  text-align: center;
 }
 
 input::placeholder{
