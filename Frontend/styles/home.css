@@ -230,18 +230,19 @@ select {
   height: 440px;
 }
 
-.cards-ads .card-pet:hover {
+/* .cards-ads .card-pet:hover {
   grid-column: span 1;
   grid-row: span 2;
   transition: 350ms all;
   height: 500px;
-}
+} */
 
 .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   overflow: hidden;
+  border-radius: 30px 10px 30px 10px;
 }
 
 .card-body {
