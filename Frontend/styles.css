@@ -18,6 +18,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  outline: none;
 }
 
 header {
@@ -31,7 +33,6 @@ header img {
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
   background-image: linear-gradient(0deg, rgb(0 0 0 / 57%), rgb(0 0 0 / 0%)), url(./assets/img/principal.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -87,6 +88,12 @@ form {
   padding: 20px;
 }
 
+form a {
+  text-align: center;
+  margin: 10px;
+  color: var(--letter);
+}
+
 label {
   font-weight: bold;
   margin-bottom: 10px;
@@ -102,7 +109,6 @@ input {
   padding: 8px;
   margin-bottom: 30px;
   color: var(--button);
-
   border: none;
 }
 
@@ -140,9 +146,9 @@ button a {
 }
 
 
-button:hover,
+/* button:hover,
 a:hover {
   background-color: var(--label);
   animation: .1s ease-in;
   color: #000000;
-}
+} */
