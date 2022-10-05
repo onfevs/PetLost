@@ -44,7 +44,7 @@ FOREIGN KEY (fk_idPersona) REFERENCES Persona (idPersona) ON DELETE RESTRICT ON 
 );
 
 /*------Datos------*/
-INSERT INTO TipoMascota (idtipoMascota, descripcion)
+INSERT INTO TipoMascota (idtipoMascota, descripMascota)
 VALUES
 (DEFAULT, "Gato"),
 (DEFAULT, "Perro"),
